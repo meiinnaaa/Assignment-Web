@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Testing</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+<body>
+    <nav>
+    <ul class="topnav" id="dropdownClick">
+        <li><a href="album.html">Home</a></li>
+        <li><a href="bootstrap.html">Album</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li class="topnav-right"><a href="#login">Log In</a></li>
+        <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+        <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6 leftSide-col">
+                <div>
+                <h1 class="large">VALE</h1>
+                <h2 class="large">Shoutout to all Lovers</h2>
+            </div>
+            <form>
+                <div>
+                    <h2>Search : </h2>
+                    <input class="inputbox" name="search" type="text" placeholder="search">
+                </div>
+            </form>
+        </div>   
+        </div>
+    </div>
+    
+    <header>
+        <h1 class="section2Header"> Taste the Sweetness of Love </h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="img/lvring.jpg">
+                    </div>
+                  <label>LOVE RING</label> <p>Symbols to show that you love each other</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="img/chocobox.jpg">
+                    </div>
+                  <label>CHOCOLATE</label> <p>Home-made chocolate that made of love</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="img/couples.jpg">
+                    </div>
+                  <label>COUPLE ITEMS</label> <p>The fun things to gatekeep each other</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-12">
+            <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+   <!--      footer-->
+      <footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+    
+    
+    
+    <script>
+    function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if(x.className === "topnav") {
+            x.className === " responsive";
+            /*change topnav to topnav.responsive*/
+        } else {
+            x.className = "topnav";
+        }
+    }
+    
+    </script>
+    </body>
+
+</html>
